@@ -8,6 +8,8 @@
 
 #include "solutions/00852.hpp"
 
+#include "solutions/01870.hpp"
+
 #include <gtest/gtest.h>
 
 int main(int argc, char *argv[]) {
