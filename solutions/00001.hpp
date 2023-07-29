@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "utils.hpp"
+#include "TestUtils.hpp"
 
 // 00001. Two Sum - https://leetcode.com/problems/two-sum/
 namespace _00001 {
