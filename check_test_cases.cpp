@@ -6,6 +6,8 @@
 
 #include "solutions/00050.hpp"
 
+#include "solutions/00664.hpp"
+
 #include "solutions/00852.hpp"
 
 #include "solutions/01870.hpp"
