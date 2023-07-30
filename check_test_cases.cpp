@@ -4,6 +4,7 @@
 #include "solutions/00004.hpp"
 #include "solutions/00005.hpp"
 #include "solutions/00006.hpp"
+#include "solutions/00007.hpp"
 
 #include "solutions/00050.hpp"
 
