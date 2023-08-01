@@ -9,6 +9,8 @@
 
 #include "solutions/00050.hpp"
 
+#include "solutions/00077.hpp"
+
 #include "solutions/00664.hpp"
 
 #include "solutions/00712.hpp"

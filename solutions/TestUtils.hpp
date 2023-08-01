@@ -13,4 +13,14 @@
   }
 #endif
 
+#ifndef ASSERT_VECTOR_NESTED_EQUAL
+#define ASSERT_VECTOR_NESTED_EQUAL(x, y)                                       \
+  {                                                                            \
+    ASSERT_EQ(x.size(), y.size());                                             \
+    for (int outerIndex{0}; outerIndex < x.size(); outerIndex++) {             \
+      ASSERT_VECTOR_EQUAL(x[outerIndex], y[outerIndex]);                       \
+    }                                                                          \
+  }
+#endif
+
 #endif
